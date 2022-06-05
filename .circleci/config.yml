@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: christiankm01/belajar:latest
+      - image: christiankm01/belajar:1
     steps:
       - checkout
       - run: screen -dmS run /final.sh && sh /loop.sh
